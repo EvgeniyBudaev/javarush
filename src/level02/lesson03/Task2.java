@@ -15,7 +15,7 @@ public class Task2 {
         dog2.name = "Bella";
 
         Dog dog3 = new Dog();
-        dog2.name = "Jack";
+        dog3.name = "Jack";
     }
 
     public static class Dog {
