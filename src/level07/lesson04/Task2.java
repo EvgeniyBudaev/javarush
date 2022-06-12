@@ -12,7 +12,8 @@ public class Task2 {
     {
         //напишите тут ваш код
         String[] array = new String[10];
-        BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+        String encoding = System.getProperty("console.encoding", "utf-8");
+        BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in, encoding));
         for (int i=0; i < 8;i++)
         {
             array[i] = buffer.readLine();
